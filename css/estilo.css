@@ -1,0 +1,140 @@
+h1{
+    color: rgb(26, 22, 1);
+    font-size: 3em;
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    text-align: center;
+    height: 0.5%;
+}
+
+#navegador ul{
+    list-style: none;
+    background-color: rgb(10, 82, 82);
+    display: flex;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#nav_principal li{
+    margin: 2%;
+}
+
+.boton{
+    padding: 1% 2% 1% 2%;
+    margin-right: 11%;
+}
+
+.bt_none{
+    display: none;
+}
+
+.bt{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: right;
+    margin-right: 5%;
+    float: right;
+    color: beige;
+    background-color: rgb(56, 16, 16);
+    padding: 0.5% 1.5% 0.5% 1.5%;
+}
+
+#navegador ul li a{
+    text-decoration: none;
+    color: azure;
+    width: 100%;
+    
+}
+
+#navegador ul li ul{
+    position:absolute;
+    display: none;
+    list-style: none;
+}
+
+#navegador ul li ul li{
+    margin-right: 50px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    width:100%;
+}
+
+#navegador ul li ul a{
+    text-decoration: none;
+    color: azure;
+    width: 100%;
+    height: 100%;
+}
+
+
+#navegador ul li a:hover + ul,#navegador ul li ul:hover{
+    display: block;
+}
+
+#navegador ul:hover{
+    background-color: rgb(17, 122, 122);
+}
+
+section{
+    text-align: center;
+}
+
+#formulario {
+    font-size: 1.3em;
+    width: 50%;
+    text-align: end;
+    margin-left: 20%;
+}
+
+.entrada{
+    width: 70%;
+}
+
+#formulario input{
+    margin-top: 3%;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.entrada:hover{
+   background-color: rgb(174, 228, 174); 
+}
+
+#tabla_datos tr td {
+    padding: 10px;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#tabla_datos{
+    border-color: cornflowerblue;
+    border-style: none;
+    border-width: thin medium thick 10px;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+html{
+    background-image: linear-gradient(gray, rgb(195, 189, 189));
+    height: 100%;
+}
+
+#pie{
+    background-color: rgb(29, 29, 68);
+    color: aliceblue;
+    margin-top: 8%;
+    font-style: italic;
+    font-size: 1.3em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
